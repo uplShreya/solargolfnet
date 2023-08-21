@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sublinks",
+  "info": {
+    "singularName": "sublink",
+    "pluralName": "sublinks",
+    "displayName": "Sublink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}

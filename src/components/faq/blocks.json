@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_faq_blocks",
+  "info": {
+    "displayName": "Blocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary ",
+        "secondary",
+        "muted"
+      ]
+    },
+    "faq": {
+      "displayName": "QuestionAnswer",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.question-answer"
+    }
+  }
+}
