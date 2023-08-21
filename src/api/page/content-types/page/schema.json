@@ -40,9 +40,10 @@
       },
       "type": "dynamiczone",
       "components": [
-        "faq.blocks",
+        "blocks.blocks",
         "sections.hero",
-        "sections.testimonials-group"
+        "sections.testimonials-group",
+        "sections.attributes"
       ]
     },
     "shortName": {

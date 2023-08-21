@@ -1,15 +1,18 @@
 {
-  "collectionName": "components_elements_testimonials",
+  "collectionName": "components_elements_attributes",
   "info": {
-    "displayName": "Testimonial",
+    "displayName": "attributes",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
+    "title": {
       "type": "string"
     },
-    "icon": {
+    "details": {
+      "type": "string"
+    },
+    "image": {
       "allowedTypes": [
         "images",
         "files",
