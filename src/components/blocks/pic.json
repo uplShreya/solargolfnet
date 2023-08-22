@@ -33,6 +33,14 @@
     },
     "heading": {
       "type": "string"
+    },
+    "ckeContent": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

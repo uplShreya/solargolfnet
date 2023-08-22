@@ -43,7 +43,8 @@
         "blocks.blocks",
         "sections.hero",
         "sections.testimonials-group",
-        "sections.attributes"
+        "sections.attributes",
+        "sections.lead-form"
       ]
     },
     "shortName": {
