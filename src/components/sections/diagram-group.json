@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_diagram_groups",
+  "info": {
+    "displayName": "Diagram group",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "diagram": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

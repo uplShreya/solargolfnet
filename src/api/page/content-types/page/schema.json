@@ -44,7 +44,8 @@
         "sections.hero",
         "sections.testimonials-group",
         "sections.attributes",
-        "sections.lead-form"
+        "sections.lead-form",
+        "sections.diagram-group"
       ]
     },
     "shortName": {
