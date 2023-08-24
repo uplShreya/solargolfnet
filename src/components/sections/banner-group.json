@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_banner_groups",
+  "info": {
+    "displayName": "bannerGroup",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerDescription": {
+      "type": "string"
+    },
+    "bannerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
