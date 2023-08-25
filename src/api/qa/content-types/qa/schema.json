@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qas",
+  "info": {
+    "singularName": "qa",
+    "pluralName": "qas",
+    "displayName": "Qa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "questionanswer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.blocks"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

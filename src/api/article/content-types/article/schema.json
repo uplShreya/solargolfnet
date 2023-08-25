@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,7 @@
     "cover": {
       "type": "media",
       "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
@@ -38,7 +40,8 @@
         "shared.quote",
         "shared.rich-text",
         "shared.slider",
-        "shared.video-embed"
+        "shared.video-embed",
+        "shared.cke"
       ]
     },
     "category": {

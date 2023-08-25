@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "displayName": "Contact form",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "namePlaceholder": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "addressPlaceholder": {
+      "type": "text"
+    },
+    "moduleNoPlaceholder": {
+      "type": "string"
+    },
+    "subjectPlaceholder": {
+      "type": "string"
+    },
+    "helpPlaceholder": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}

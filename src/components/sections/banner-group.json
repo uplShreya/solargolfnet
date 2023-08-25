@@ -1,15 +1,19 @@
 {
-  "collectionName": "components_elements_testimonials",
+  "collectionName": "components_sections_banner_groups",
   "info": {
-    "displayName": "Testimonial",
+    "displayName": "bannerGroup",
+    "icon": "landscape",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
+    "bannerTitle": {
       "type": "string"
     },
-    "icon": {
+    "bannerDescription": {
+      "type": "string"
+    },
+    "bannerImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -19,9 +23,6 @@
         "videos",
         "audios"
       ]
-    },
-    "authorName": {
-      "type": "string"
     }
   }
 }

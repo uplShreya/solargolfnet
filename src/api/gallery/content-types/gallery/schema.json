@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "galleries",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery",
     "description": ""
   },
   "options": {
@@ -16,7 +16,18 @@
     }
   },
   "attributes": {
-    "title": {
+    "pic": {
+      "displayName": "Pic",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.pic"
+    },
+    "Title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,37 +35,30 @@
       },
       "type": "string"
     },
-    "slug": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "component": "shared.seo"
     },
-    "blocks": {
+    "coverImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "dynamiczone",
-      "components": [
-        "blocks.blocks",
-        "sections.hero",
-        "sections.testimonials-group",
-        "sections.attributes",
-        "sections.lead-form",
-        "sections.diagram-group"
-      ]
-    },
-    "shortName": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      }
     },
     "description": {
       "pluginOptions": {
@@ -64,16 +68,6 @@
       },
       "type": "string"
     },
-    "metadata": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "meta.metadata"
-    },
     "heading": {
       "pluginOptions": {
         "i18n": {
@@ -81,6 +75,16 @@
         }
       },
       "type": "string"
+    },
+    "ckeContent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.cke"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "package": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.plan"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

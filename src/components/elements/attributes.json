@@ -1,21 +1,18 @@
 {
-  "collectionName": "components_links_links",
+  "collectionName": "components_elements_attributes",
   "info": {
-    "displayName": "Link",
+    "displayName": "attributes",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
+    "title": {
       "type": "string"
     },
-    "newTab": {
-      "type": "boolean"
-    },
-    "url": {
+    "details": {
       "type": "string"
     },
-    "icon": {
+    "image": {
       "allowedTypes": [
         "images",
         "files",

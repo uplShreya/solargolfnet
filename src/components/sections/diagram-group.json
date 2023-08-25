@@ -1,15 +1,13 @@
 {
-  "collectionName": "components_elements_testimonials",
+  "collectionName": "components_sections_diagram_groups",
   "info": {
-    "displayName": "Testimonial",
+    "displayName": "Diagram group",
+    "icon": "picture",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
-      "type": "string"
-    },
-    "icon": {
+    "diagram": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -19,9 +17,6 @@
         "videos",
         "audios"
       ]
-    },
-    "authorName": {
-      "type": "string"
     }
   }
 }

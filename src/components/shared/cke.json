@@ -1,17 +1,11 @@
 {
-  "collectionName": "components_shared_question_answers",
+  "collectionName": "components_shared_ckes",
   "info": {
-    "displayName": "QuestionAnswer",
-    "description": ""
+    "displayName": "Cke",
+    "icon": "code"
   },
   "options": {},
   "attributes": {
-    "question": {
-      "type": "string"
-    },
-    "answer": {
-      "type": "richtext"
-    },
     "ckeContent": {
       "type": "customField",
       "options": {

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_attributes",
+  "info": {
+    "displayName": "Attributes group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "attributes": {
+      "displayName": "attributes",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.attributes"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "coverImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
