@@ -14,7 +14,7 @@
     },
     "navbarLogo": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "layout.logo"
     },
     "button": {
