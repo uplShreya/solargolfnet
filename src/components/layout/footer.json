@@ -38,6 +38,11 @@
     },
     "copyrightText": {
       "type": "text"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
     }
   }
 }
